@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            head().offset(y: 370)
+            Checklist().offset(x: 12, y: -25)
+            Accept().offset(y : -374)
+        }
+        
+                
+        
+        
     }
 }
 

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "kissclipart-avatar-person-clipart-avatar-computer-icons-person-141be2b50ef2eda6.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

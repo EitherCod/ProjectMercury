@@ -15,6 +15,9 @@
 		DA45146624386B6700D236D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA45146424386B6700D236D2 /* LaunchScreen.storyboard */; };
 		DA45147124386B6800D236D2 /* MercuryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45147024386B6800D236D2 /* MercuryTests.swift */; };
 		DA45147C24386B6800D236D2 /* MercuryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45147B24386B6800D236D2 /* MercuryUITests.swift */; };
+		DA45148A24393D4500D236D2 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45148924393D4500D236D2 /* Checklist.swift */; };
+		DA45148C24393D9F00D236D2 /* Accept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45148B24393D9F00D236D2 /* Accept.swift */; };
+		DA45148E24394D4700D236D2 /* head.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45148D24394D4700D236D2 /* head.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DA45147724386B6800D236D2 /* MercuryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercuryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA45147B24386B6800D236D2 /* MercuryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryUITests.swift; sourceTree = "<group>"; };
 		DA45147D24386B6800D236D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA45148924393D4500D236D2 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		DA45148B24393D9F00D236D2 /* Accept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accept.swift; sourceTree = "<group>"; };
+		DA45148D24394D4700D236D2 /* head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = head.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		DA45144D24386B6500D236D2 = {
 			isa = PBXGroup;
 			children = (
+				DA45148924393D4500D236D2 /* Checklist.swift */,
+				DA45148B24393D9F00D236D2 /* Accept.swift */,
+				DA45148D24394D4700D236D2 /* head.swift */,
 				DA45145824386B6600D236D2 /* Mercury */,
 				DA45146F24386B6800D236D2 /* MercuryTests */,
 				DA45147A24386B6800D236D2 /* MercuryUITests */,
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA45148A24393D4500D236D2 /* Checklist.swift in Sources */,
 				DA45145A24386B6600D236D2 /* AppDelegate.swift in Sources */,
 				DA45145C24386B6600D236D2 /* SceneDelegate.swift in Sources */,
+				DA45148E24394D4700D236D2 /* head.swift in Sources */,
+				DA45148C24393D9F00D236D2 /* Accept.swift in Sources */,
 				DA45145E24386B6600D236D2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
